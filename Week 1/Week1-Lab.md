@@ -8,7 +8,7 @@ The application should use at least one `ImageView` and one `TextView`.
 
 ## Mockup
 
-![](../images/Birthday-App.png)
+![](../Images/Birthday-App.png)
 
 ## Instructions
 
