@@ -46,7 +46,7 @@ As mentioned earlier, there will be lots of jargon that you may have never heard
 
 ### Android Architecture
 
-![](../images/android-platform.png)
+![](../Images/android-platform.png)
 
 ### Programming Language
 
@@ -94,7 +94,7 @@ The first thing you need to learn in Android are called `Views`.
 
 Views are rectangles that are drawn on the screen. They are the building block to build the layout for your application.
 
-![](../images/Android-Views.png)
+![](../Images/Android-Views.png)
 
 ### TextView
 
@@ -114,7 +114,7 @@ A group of Views is known as a `ViewGroup`. A group of views are usually inside 
 
 ### Challenge #1: What `Views` are inside this screen?
 
-![](../images/Week1-Quiz1.png)
+![](../Images/Week1-Quiz1.png)
 
 ## Defining Views in XML
 
