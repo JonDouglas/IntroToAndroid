@@ -93,6 +93,8 @@ What if we wanted to interact with our `View` objects? We need a way to get them
 
 Android uses a concept of `Listeners` which is an event listener pattern. These are typically a single event callback that is invoked when the `View` is interacted with.
 
+
+Java
 ```
 Button buttonAdd = (Button) findViewById(R.id.buttonAdd);
 
@@ -102,6 +104,15 @@ buttonAdd.setOnClickListener(new View.OnClickListener() {
                 //What happens in our onclick?
             }
         });
+```
+
+C#
+```
+Button buttonAdd = FindViewById<Button>(Resource.Id.buttonAdd);
+
+buttonAdd.Click += (sender, e) => {
+                //What happens in our onclick?
+            };
 ```
 
 ## Quiz #1
@@ -124,8 +135,6 @@ What method does majority of your code belong in?
 ## Quiz #4
 
 What method do you use to get a `View` via code?
-
-FindViewById
 
 ## Quiz #5
 
